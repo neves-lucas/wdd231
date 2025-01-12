@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #214567;
+}
+
+header {
+  background-color: #214567;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+  padding: 1.5px;
+  box-shadow: 0 0 30px gray;
+  float: center;
+  margin: 1rem 1.5rem 1rem 1rem;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+#hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#menu {
+  background-color: #333333;
+  padding: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#menu a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  background-color: #7c8186;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #7c8186;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #d0d3d6;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: #e7ecef;
+  overflow: hidden;
+  box-shadow: 0 0 30px gray;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #174E70;
+  padding: 15px;
+}
+
+#course-work ul {
+  padding: 20px 40px;
+  grid-column: 1 / 3;
+}
+
+#location img {
+  width: 90%;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+#location p {
+  text-align: center;
+  color: #174E70;
+  margin-bottom: 15px;
+}
+
+#certificate {
+  grid-column: 1 / 3;
+}
+
+#certificate h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.course {
+  background-color: #236397;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.course.completed {
+  background-color: #1d6137;
+  border: 3px solid #4CAF50;
+  position: relative;
+}
+
+.course.completed::after {
+  content: "✓";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.course:hover {
+  transform: scale(1.05);
+}
+
+.course-button {
+  background-color: #582b0d;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.course-button:hover {
+  background-color: #3d1d08;
+}
+
+footer {
+  background-color: #214567;
+  color: rgb(210, 181, 15);
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  #location {
+    grid-row: 2;
+  }
+
+  #menu a {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+  .filter-buttons button {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+  #courses {
+    grid-template-columns: 1fr;
+  }
+
+  #hamburger {
+    display: block;
+}
+
+  #nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+}
+
+  #nav-links.show {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+  #menu {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+  #menu a {
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+  
+}
