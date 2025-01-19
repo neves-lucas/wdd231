@@ -1,0 +1,90 @@
+[
+    {
+        "Name": "Petrobras",
+        "Industry": "Oil and Gas",
+        "Physical Address": "Avenida República do Chile, 65, Rio de Janeiro, RJ, 20031-912, Brazil",
+        "Website": "https://www.petrobras.com.br",
+        "Phone": "+55 21 3573-0001",
+        "Representative": "Jean Paul Prates / CEO",
+        "MemberSince": "10/03/1953",
+        "Membership": "Platinum",
+        "logo": "images/members-icons/br-petrobras.svg"
+    },
+    {
+        "Name": "Itaú Unibanco",
+        "Industry": "Financial Services",
+        "Physical Address": "Praça Alfredo Egydio de Souza Aranha, 100, São Paulo, SP, 04344-902, Brazil",
+        "Website": "https://www.itau.com.br",
+        "Phone": "+55 11 5019-8000",
+        "Representative": "Milton Maluhy Filho / CEO",
+        "MemberSince": "01/01/1924",
+        "Membership": "Platinum",
+        "logo": "images/members-icons/itau-logo-1.svg"
+    },
+    {
+        "Name": "Bradesco",
+        "Industry": "Financial Services",
+        "Physical Address": "Cidade de Deus, s/n, Vila Yara, Osasco - SP, 06029-900, Brazil",
+        "Website": "https://www.bradesco.com.br",
+        "Phone": "+55 11 3684-4000",
+        "Representative": "Octavio de Lazari Junior / CEO",
+        "MemberSince": "03/10/1943",
+         "Membership": "Platinum",
+        "logo": "images/members-icons/bradesco.svg"
+    },
+    {
+        "Name": "Vale",
+        "Industry": "Mining",
+        "Physical Address": "Praia de Botafogo, 186, Rio de Janeiro, RJ, 22250-040, Brazil",
+        "Website": "https://www.vale.com",
+        "Phone": "+55 21 3485-3900",
+        "Representative": "Eduardo de Salles Bartolomeo / CEO",
+        "MemberSince": "06/01/1942",
+        "Membership": "Platinum",
+        "logo": "images/members-icons/vale-logo-1.svg"
+    },
+    {
+        "Name": "Sococo",
+        "Industry": "Food",
+        "Physical Address": "Rodovia BR 101 Norte, Km 96, S/N, Maceió, AL, 57081-000, Brazil",
+        "Website": "https://www.sococo.com.br",
+        "Phone": "+55 82 2123-7000",
+        "Representative": "Carlos Alberto de Oliveira / CEO",
+        "MemberSince": "01/01/1966",
+        "Membership": "Gold",
+        "logo": "images/members-icons/sococo.svg"
+    },
+    {
+        "Name": "FIEA",
+        "Industry": "Industry",
+        "Physical Address": "Av. Fernandes Lima, 385, Maceió, AL, 57055-045, Brazil",
+        "Website": "https://www.fiea.com.br",
+        "Phone": "+55 82 2121-4100",
+        "Representative": "José Carlos Lyra de Andrade / President",
+        "MemberSince": "01/01/1960",
+        "Membership": "Silver",
+        "logo": "images/members-icons/fiea.svg"
+    },
+    {
+        "Name": "Fecomercio",
+        "Industry": "Trade",
+        "Physical Address": "Rua Barão de Jaraguá, 308, Maceió, AL, 57022-140, Brazil",
+        "Website": "https://www.fecomercio-al.com.br",
+        "Phone": "+55 82 2123-7700",
+        "Representative": "Gilton Lira / President",
+        "MemberSince": "01/01/1948",
+        "Membership": "Silver",
+        "logo": "images/members-icons/Fecomercio.svg"
+    },
+    {
+        "Name": "Correios",
+        "Industry": "Postal Services",
+        "Physical Address": "SBN Quadra 1, Bloco A, Edifício Sede, Brasília, DF, 70002-900, Brazil",
+        "Website": "https://www.correios.com.br",
+        "Phone": "+55 61 3003-0100",
+        "Representative": "Fabiano Silva dos Santos / President",
+        "MemberSince": "03/20/1969",
+        "Membership": "Gold",
+        "logo": "images/members-icons/correios-do-brasil.svg"
+    }
+]
