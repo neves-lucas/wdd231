@@ -4,8 +4,7 @@ main {
   grid-template-rows: auto auto auto;
   justify-content: center;
   align-content: center;
-  margin: 0 auto;
-  margin-top: 30px;
+  margin: 30px auto 0;
   row-gap: 20px;
 }
 
@@ -28,8 +27,7 @@ section h3 {
 }
 
 article {
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 0;
   border-radius: 5px;
   box-shadow: 0 3px 5px var(--paragraph-background-color);
   height: auto;
@@ -69,7 +67,7 @@ article {
   border: 1px solid grey;
   padding: 5px;
   text-align: center;
-  margin: auto;
+  margin: 10px auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,29 +85,19 @@ article {
   grid-column: 2/3;
   grid-row: 2;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr; 
+  grid-template-rows: auto auto auto; 
   text-align: center;
-  gap: 20px;
-  justify-content: center;
-  align-items: stretch;
-  margin: 0 auto;
-  margin-top: 50px;
-  background-color: #ffff;
-  border-radius: 10px;
-  height: 100%;
-  
-}
-.event-main, 
-.weather-main {
-  width: 400px;
-  height: 100%;
-  margin: 0 auto;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  margin: 50px auto 0;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.event-main {
+  padding: 20px;
+  margin: 0 auto;
 }
 
 #events-list {
@@ -385,18 +373,14 @@ article {
   }
 
   .companycards-main-box {
-      grid-row: 3;
-      grid-column: 2;
-      display: grid;
-      grid-template-columns: auto auto auto;
-      grid-template-rows: auto;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      margin-top: 70px;
-      margin-bottom: 50px;
-      gap: 20px;
-      max-width: 100%;
+    grid-column: 2/3;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 40px;
+    margin: 0 auto 50px;
   }
 
   .card-stack-01 {
