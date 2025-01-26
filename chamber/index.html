@@ -25,14 +25,14 @@
     </noscript>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/home.css">
     <script type="module" src="scripts/app.js"></script>
-    <script src="scripts/modules/directory.js" defer></script>
+    <script src="scripts/modules/home.js" defer></script>
     <link rel="icon" href="images/favicon.ico" sizes="48x48" type="image/ico">
     <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="directory-page">
+<body id="index-page">
     <header>
         <nav>
         
@@ -52,13 +52,24 @@
         </nav>
     </header>
     <main>
-        <h2 class="Main-title">Directory</h2>
-        <div class="button-box">
-            <button title="List view" class="thebtn activebtn" id="list-view-btn"><i class='fas fa-list'></i></button>
-            <button title="Grid view" class="thebtn" id="grid-view-btn"><i class='fas fa-border-all'></i></button>
-        </div>
-
-        <div id="directory-box"></div>
+        <section class="hero-main-box">
+            <div class="call-to-action">
+                <h3>Join the Maceió Chamber of Commerce!</h3>
+                <p>Grow your business connections, unlock valuable resources, and contribute to your local economy. Join today and start making an impact.</p>
+                <p>Click here to become a member.</p>
+                <button class="join-us" name="join" onclick="window.location.href='/chamber/join.html'">Join us</button>
+            </div>
+        </section>
+        <section class="event-main-box">
+            <article class="event-main">
+                <h2>Current Events</h2>
+                <div id="events-list">
+                </div>
+            </article>
+            <article class="weather-main" id="weather-main"></article>
+            <article class="weather-forecast" id="weather-forecast"></article>
+        </section>
+        <section class="companycards-main-box"></section>
     </main>
     <footer>
         <p>© <span id="currentyear"></span>	🇧🇷 Lucas Neves Rocha 🇧🇷</p>
