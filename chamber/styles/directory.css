@@ -20,14 +20,12 @@ main {
     width: 110px;
     height: 40px;
     margin: 0 auto;
-    border: 2px solid var(--wassup);
-    border-radius: 10px;
     background-color: var(--white);
-    color: var(--wassup);
+    color: var(--text-color);
 }
 
 button {
-    border: 1px solid var(--wassup);
+    border: 1px solid grey;
     border-radius: 5px;
     padding: 5px;
     width: 50px;
@@ -35,13 +33,13 @@ button {
     outline: none;
     font-weight: bold;
     cursor: pointer;
-    background-color: var(--white); 
-    color: var(--wassup); 
+    background-color: var(--text-color2); 
+    color: var(--text-color); 
 }
 
 button.activebtn {
-    background-color: var(--wassup); 
-    color: var(--white);
+    background-color: black; 
+    color: var(--main-color);
 }
 
 .fa-border-all,
@@ -50,8 +48,8 @@ button.activebtn {
 }
 
 button:hover {
-    background-color: var(--wassup);
-    color: var(--white);
+    background-color: var(--text-color);
+    color: var(--main-color);
 }
 
 #directory-box.grid-view {
@@ -62,7 +60,7 @@ button:hover {
 
 .card-box {
     padding: 20px;
-    border: 2px solid var(--wassup);
+    border: 2px solid var(--text-color);
     border-radius: 10px;
     margin: 10px;
     background-color: var(--white);
@@ -80,7 +78,7 @@ button:hover {
 
 .card-box h3, 
 .card-box ul li {
-    color: var(--wassup);
+    color: var(--text-color);
     font-size: var(--font-size-base);
 }
 
@@ -91,7 +89,7 @@ button:hover {
 td a:link, td a,
 .card-box a:link, .card-box a {
     text-decoration: none;
-    color: var(--oxford-blue);
+    color: var(--text-color);
 }
 
 td a:visited,
@@ -102,7 +100,7 @@ td a:visited,
 td a:hover,
 .card-box a:hover {
     font-weight: bold;
-    color: var(--yale-blue);
+    color: var(--text-color);
 }
 
 td a:active,
@@ -142,7 +140,7 @@ td a:active,
         vertical-align: middle;
         padding: 15px;
         background-color: var(--white);
-        border: 2px solid var(--wassup);
+        border: 2px solid var(--text-color);
         border-radius: 10px;
     }
 

@@ -34,6 +34,17 @@ article {
   padding: 10px;
 }
 
+.hero-box-img {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  margin: 0 auto;
+}
+
+.hero-box-img img {
+  border-radius: 1px;
+  box-shadow: 0 4px 8px var(--paragraph-background-color);
+}
+
 .call-to-action {
   grid-column: 2/3;
   grid-row: 2/3;

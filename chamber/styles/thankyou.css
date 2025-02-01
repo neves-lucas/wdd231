@@ -1,0 +1,76 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  display: none;
+}
+
+.thank-you-section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #8a34121d;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  font-family: var(--open-sans-paragraph-font);
+  color: #171210;
+  font-weight: bold;
+}
+
+.thank-you-section h2 {
+  font-size: var(--font-size-extra-large);
+  margin-bottom: 20px;
+  color: var(--headline-color-on-white);
+  font-family: var(--poppins-heading-font);
+  font-weight: var(--poppins-bold-font-weight);
+}
+
+.thank-you-section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: var(--font-size-base);
+}
+
+.discover-link,
+.home-button {
+  text-decoration: none;
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+.discover-link {
+  color: var(--headline-color-on-white);
+}
+
+.thank-you-section a:hover {
+  color: var(--oxford-blue);
+}
+
+.home-button {
+  color: var(--text-color2);
+  min-width: 130px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #495057;
+  background: var(--headline-color-on-color);
+  border-radius: 14px
+  
+}
+
+.home-button:hover {
+  background: #ffff;
+  color: var(--text-color);
+}
+
+.discover-link:hover {
+  font-weight: bold;
+  text-decoration: underline black;
+}
