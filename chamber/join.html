@@ -7,12 +7,14 @@
 
     <meta property="og:title" content="Join | Maceió Chamber of Commerce">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Explore businesses in our Maceió Chamber of Commerce directory. Join us today!">
-  
+    <meta property="og:description"
+        content="Explore businesses in our Maceió Chamber of Commerce directory. Join us today!">
+
     <title>Join | Maceió Chamber of Commerce</title>
-    <meta name="description" content="Maceió Chamber of Commerce directory of members." >
-    <meta name="author" content="Lucas Neves Rocha" />
-    <meta property="og:image" content="https://neves-lucas.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
+    <meta name="description" content="Maceió Chamber of Commerce directory of members.">
+    <meta name="author" content="Lucas Neves Rocha">
+    <meta property="og:image"
+        content="https://neves-lucas.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
     <meta property="og:url" content="https://neves-lucas.github.io/wdd231">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,10 +40,10 @@
     <header>
         <nav>
             <div class="box-logo-header">
-                <img class="logo-chamber" src="images/maceio-icon.webp"
-                    alt="Maceió Chamber of Commerce Logo">
+                <img class="logo-chamber" src="images/maceio-icon.webp" alt="Maceió Chamber of Commerce Logo">
                 <h1 class="nameHeader">Maceió City<br>Chamber of Commerce</h1>
-                <button name="navigation button" id="menu" aria-label="Toggle menu" aria-expanded="false"></button> <!-- Added aria-expanded for accessibility -->
+                <button name="navigation button" id="menu" aria-label="Toggle menu" aria-expanded="false"></button>
+                <!-- Added aria-expanded for accessibility -->
             </div>
 
             <ul class="nav-links">
@@ -54,58 +56,68 @@
     </header>
 
     <main>
- <section class="membership-container">
+        <section class="membership-container">
             <h2 class="sub-title-member">Membership Levels</h2>
             <div class="membership-cards">
                 <div class="card">
                     <h3>Non-Profit Membership Level</h3>
-                    <button class="css-button-arrow--black" id="npButton" aria-label="Learn more about Non-Profit Membership">
+                    <button class="css-button-arrow--black" id="npButton"
+                        aria-label="Learn more about Non-Profit Membership">
                         <span class="visually-hidden">Learn More</span>
                     </button>
                 </div>
                 <div class="card">
                     <h3>Bronze Membership Level</h3>
-                    <button class="css-button-arrow--black" id="bronzeButton" aria-label="Learn more about Bronze Membership">
+                    <button class="css-button-arrow--black" id="bronzeButton"
+                        aria-label="Learn more about Bronze Membership">
                         <span class="visually-hidden">Learn More</span>
                     </button>
                 </div>
                 <div class="card">
                     <h3>Silver Membership Level</h3>
-                    <button class="css-button-arrow--black" id="silverButton" aria-label="Learn more about Silver Membership">
+                    <button class="css-button-arrow--black" id="silverButton"
+                        aria-label="Learn more about Silver Membership">
                         <span class="visually-hidden">Learn More</span>
                     </button>
                 </div>
                 <div class="card">
                     <h3>Gold Membership Level</h3>
-                    <button class="css-button-arrow--black" id="goldButton" aria-label="Learn more about Gold Membership">
+                    <button class="css-button-arrow--black" id="goldButton"
+                        aria-label="Learn more about Gold Membership">
                         <span class="visually-hidden">Learn More</span>
                     </button>
                 </div>
             </div>
         </section>
-    
+
         <!-- Membership Application Form -->
         <form method="get" action="thankyou.html">
             <h2 class="sub-title-form">Membership Application</h2>
-    
+
             <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" title="Enter your first name" autocomplete="given-name" required placeholder="First name">
-            
+            <input type="text" id="firstName" name="firstName" title="Enter your first name" autocomplete="given-name"
+                required placeholder="First name">
+
             <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" title="Enter your last name" autocomplete="family-name" required placeholder="Last name">
-            
+            <input type="text" id="lastName" name="lastName" title="Enter your last name" autocomplete="family-name"
+                required placeholder="Last name">
+
             <label for="organizationTitle">Organizational Title:</label>
-            <input type="text" id="organizationTitle" name="organizationTitle" title="Enter your organizational title" autocomplete="organization title" pattern="[A-Za-z\s\-.,']{2,}" required>
-            
+            <input type="text" id="organizationTitle" name="organizationTitle" title="Enter your organizational title"
+                autocomplete="organization" pattern="[A-Za-z\s\-.,']{2,}" required>
+
             <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" title="Enter your email address" autocomplete="email" placeholder="example@email.com" required>
-            
+            <input type="email" id="email" name="email" title="Enter your email address" autocomplete="email"
+                placeholder="example@email.com" required>
+
             <label for="phone">Mobile Number:</label>
-            <input type="tel" id="phone" name="phone" title="Enter your mobile phone number" autocomplete="tel" required placeholder="+1 555-55-5555">
-            
+            <input type="tel" id="phone" name="phone" title="Enter your mobile phone number" autocomplete="tel" required
+                placeholder="+1 555-55-5555">
+
             <label for="organization">Business/Organization Name:</label>
-            <input type="text" id="organization" name="organization" title="Enter your business or organization name" autocomplete="organization" required>
-            
+            <input type="text" id="organization" name="organization" title="Enter your business or organization name"
+                autocomplete="organization" required>
+
             <label for="membershipLevel">Membership Level:</label>
             <select id="membershipLevel" name="membershipLevel" required>
                 <option value="" disabled selected>Select a membership level</option>
@@ -114,12 +126,13 @@
                 <option value="Silver">Silver Membership</option>
                 <option value="Gold">Gold Membership</option>
             </select>
-            
+
             <label for="organizationDescription">Business/Organization Description:</label>
-            <textarea id="organizationDescription" name="organizationDescription" title="Describe your business or organization" rows="4" cols="50"></textarea>
+            <textarea id="organizationDescription" name="organizationDescription"
+                title="Describe your business or organization" rows="4" cols="50"></textarea>
 
             <input type="hidden" name="timestamp" id="timestamp" value="">
-            
+
             <button class="css-button-fully-rounded" type="submit">Submit</button>
         </form>
         <dialog id="npModal"></dialog>
@@ -129,7 +142,7 @@
     </main>
 
     <footer>
-        <p>© <span id="currentyear"></span>	🇧🇷 Lucas Neves Rocha 🇧🇷</p>
+        <p>© <span id="currentyear"></span> 🇧🇷 Lucas Neves Rocha 🇧🇷</p>
         <p id="lastModified"></p>
     </footer>
 </body>
