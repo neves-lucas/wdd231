@@ -207,33 +207,6 @@ main.discover {
     margin-bottom: 10px;
 }
 
-#calendar {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    width: 100%;
-    border-collapse: collapse;
-}
-
-#calendar caption {
-    text-align: left;
-    padding: 5px 10px;
-    background-color: #003366;
-    color: #fff;
-    font-weight: bold;
-    font-size: medium;
-}
-
-#calendar th,
-#calendar td {
-    border: 1px solid #555;
-    padding: 8px;
-    text-align: center;
-}
-
-#calendar .hoy {
-    background-color: red;
-}
-
 .article-01 {
     font-family: var(--open-sans-paragraph-font);
     font-weight: var(--open-sans-font-weight);
@@ -364,7 +337,7 @@ footer p:first-child {
 
 #calendar th,
 #calendar td {
-    border: 1px solid var(--big-fish-to-fry);
+    border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
