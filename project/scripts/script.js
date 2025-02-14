@@ -1,3 +1,5 @@
+import { initArticles } from "./modules/articles.js";
+
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('#menu');
 
@@ -25,3 +27,6 @@ toggleButton.addEventListener('click', () => {
 		localStorage.removeItem('theme');
 	}
 });
+	document.addEventListener('DOMContentLoaded', () => {
+		initArticles();
+	});

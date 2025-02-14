@@ -1,0 +1,107 @@
+[
+  {
+    "articleTitle": "How to Start Running: A Beginner's Guide",
+    "articleContent": "Running is a simple and effective way to improve your fitness, boost your mood, and increase your energy. Learn how to begin, avoid common mistakes, and stay motivated.",
+    "articleImage": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=2070&auto=format&fit=crop",
+    "articleAltImage": "Man ready to run on a race track",
+    "articleLink": "https://www.runnersworld.com/uk/training/beginners/a772727/how-to-start-running-today/"
+  },
+  {
+    "articleTitle": "The Power of Meditation: A Beginner's Guide",
+    "articleContent": "Meditation can reduce stress and improve focus. Discover how to start a daily practice, create a peaceful space, and experience its benefits.",
+    "articleImage": "https://images.unsplash.com/photo-1611566620327-5e879d9b0955?q=80&w=2072&auto=format&fit=crop",
+    "articleAltImage": "Woman meditating next to a table",
+    "articleLink": "https://health.usnews.com/wellness/mind/articles/how-to-meditate-for-beginners"
+  },
+  {
+    "articleTitle": "5 Easy and Healthy Meal Prep Ideas",
+    "articleContent": "Meal prepping saves time, money, and stress. Explore five simple ideas to keep your health and fitness goals on track.",
+    "articleImage": "https://images.unsplash.com/photo-1559058789-672da06263d8?q=80&w=2067&auto=format&fit=crop",
+    "articleAltImage": "A piece of salmon with vegetables on a table",
+    "articleLink": "https://www.loveandlemons.com/healthy-meal-prep-ideas/"
+  },
+  {
+    "articleTitle": "Top 10 Yoga Poses for Beginners",
+    "articleContent": "Yoga improves flexibility and reduces stress. Here are ten easy poses to help you get started on your journey.",
+    "articleImage": "https://plus.unsplash.com/premium_photo-1661604445845-4c75a36cb93b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Person practicing yoga in a park",
+    "articleLink": "https://www.yogajournal.com/poses/yoga-for-beginners"
+  },
+  {
+    "articleTitle": "Healthy Smoothie Recipes to Kickstart Your Day",
+    "articleContent": "Discover a variety of smoothie recipes packed with nutrients that will energize your morning and boost your metabolism.",
+    "articleImage": "https://plus.unsplash.com/premium_photo-1675011652759-2259e7bc45eb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Assortment of healthy smoothies in glasses",
+    "articleLink": "https://www.loveandlemons.com/smoothie-recipes/"
+  },
+  {
+    "articleTitle": "The Benefits of Walking: More Than Just Exercise",
+    "articleContent": "Walking improves mental and physical health. Learn why simple walks can be a powerful addition to your daily routine.",
+    "articleImage": "https://images.unsplash.com/photo-1526322222411-c1154998a9a8?q=80&w=2110&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Person walking in nature",
+    "articleLink": "https://www.healthline.com/health/fitness-exercise-benefits-of-walking"
+  },
+  {
+    "articleTitle": "Building a Consistent Sleep Routine",
+    "articleContent": "A good night's sleep is essential for health. Find out tips to establish a sleep schedule that works for you.",
+    "articleImage": "https://plus.unsplash.com/premium_photo-1661347826664-2584c6746ad4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Cozy bedroom with soft lighting",
+    "articleLink": "https://www.sleepfoundation.org/sleep-hygiene/how-to-sleep-better"
+  },
+  {
+    "articleTitle": "Strength Training for Beginners",
+    "articleContent": "Learn the basics of strength training, including key exercises and techniques to build muscle safely and effectively.",
+    "articleImage": "https://plus.unsplash.com/premium_photo-1661580260078-4c554d5b01dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Person lifting weights",
+    "articleLink": "https://www.menshealth.com/fitness/a19547683/strength-training-beginners-guide/"
+  },
+  {
+    "articleTitle": "The Ultimate Guide to Hydration",
+    "articleContent": "Proper hydration is crucial for health. Explore techniques and tips for maintaining optimal water intake throughout the day.",
+    "articleImage": "https://plus.unsplash.com/premium_photo-1674605363409-c40fc36aa304?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Glass of water with lemon slices",
+    "articleLink": "https://www.healthline.com/nutrition/how-much-water-should-you-drink-per-day"
+  },
+  {
+    "articleTitle": "Mindful Eating: How to Build a Healthy Relationship with Food",
+    "articleContent": "Mindful eating encourages you to enjoy your food and listen to your body. Discover strategies for a balanced diet without stress.",
+    "articleImage": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=2070&auto=format&fit=crop",
+    "articleAltImage": "Fresh vegetables and fruits on a table",
+    "articleLink": "https://www.eatingwell.com/article/290708/mindful-eating-how-to-transform-your-meal-times/"
+  },
+  {
+    "articleTitle": "Interval Training: Maximizing Results in Less Time",
+    "articleContent": "Interval training alternates between high and low intensity. Learn how to incorporate it into your workout routine for better results.",
+    "articleImage": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop",
+    "articleAltImage": "Athlete performing interval training outdoors",
+    "articleLink": "https://www.health.com/fitness/what-is-high-intensity-interval-training"
+  },
+  {
+    "articleTitle": "Managing Stress with Breathing Techniques",
+    "articleContent": "Stress can take a toll on your health. Discover various breathing techniques to help you relax, focus, and regain balance.",
+    "articleImage": "https://images.unsplash.com/photo-1602192509154-0b900ee1f851?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Person practicing deep breathing exercises",
+    "articleLink": "https://www.medicalnewstoday.com/articles/324417"
+  },
+  {
+    "articleTitle": "The Science Behind Building Habits",
+    "articleContent": "Learn how habits are formed, the science behind them, and strategies to build lasting changes in your life.",
+    "articleImage": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=2070&auto=format&fit=crop",
+    "articleAltImage": "Brain and neural connections representation",
+    "articleLink": "https://www.psychologytoday.com/us/basics/habits"
+  },
+  {
+    "articleTitle": "Outdoor Workouts: Embrace Nature While Exercising",
+    "articleContent": "Take your workout outside and enjoy the benefits of nature. Find out how outdoor exercise can boost your energy and mood.",
+    "articleImage": "https://plus.unsplash.com/premium_photo-1663036877653-3609070be0ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Group exercising outdoors in a park",
+    "articleLink": "https://www.shape.com/fitness/cardio/outdoor-workouts"
+  },
+  {
+    "articleTitle": "Creating a Balanced Home Workout Plan",
+    "articleContent": "Design your own home workout plan that targets all major muscle groups. Follow these simple steps to stay fit without a gym.",
+    "articleImage": "https://plus.unsplash.com/premium_photo-1661941522724-456db31f940d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "articleAltImage": "Person doing home workout with dumbbells",
+    "articleLink": "https://www.self.com/story/home-workout-tips"
+  }
+]

@@ -11,8 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <script src="../scripts/getdates.js" defer></script>
-  <script src="scripts/script.js" defer></script>
-  <script src="scripts/articles.js" defer></script>
+  <script type="module" src="scripts/modules/articles.js" defer></script>
+  <script type="module" src="scripts/script.js" defer></script>
 </head>
 <body>
   <header>
@@ -21,7 +21,7 @@
     <nav>
       <ul class="navigation">
         <li><a href="index.html">Home</a></li>
-        <li><a href="articles.html">Articles</a></li>
+        <li><a href="articles.html" id="articlesButton">Articles</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>

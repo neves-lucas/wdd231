@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,13 @@
   <link rel="stylesheet" href="styles/base.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <script src="../scripts/getdates.js" defer></script>
-  <script src="scripts/script.js" defer></script>
+  <script type="module" src="scripts/script.js" defer></script>
 </head>
+
 <body>
   <header>
     <h1>HabitOk</h1>
@@ -20,7 +24,7 @@
     <nav>
       <ul class="navigation">
         <li><a href="index.html">Home</a></li>
-        <li><a href="articles.html">Articles</a></li>
+        <li><a href="articles.html" id="articlesButton">Articles</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -32,9 +36,11 @@
     <button id="theme-toggle">&#9680;</button>
 
     <div id="summary">
-    <h1>About</h1>
-    <h2><em>Building Better Lives Through Small, Powerful Habits</em></h2>
-    <p>At HabitOk, we believe that small, daily actions can lead to life-changing results. Our mission is to inspire and guide you to develop habits that improve your health, productivity, and happiness. Join us as we explore practical tips, real-life examples, and the science behind habit formation.</p>
+      <h1>About</h1>
+      <h2><em>Building Better Lives Through Small, Powerful Habits</em></h2>
+      <p>At HabitOk, we believe that small, daily actions can lead to life-changing results. Our mission is to inspire
+        and guide you to develop habits that improve your health, productivity, and happiness. Join us as we explore
+        practical tips, real-life examples, and the science behind habit formation.</p>
     </div>
 
     <div id=homeButtons>
@@ -42,45 +48,59 @@
       <a href="contact.html"><button>Contact Us</button></a>
     </div>
 
-    <img src="images/habit_books.webp" alt="Pile of habit books" loading="lazy" width="80%">
+    <img src="images/habit_books.webp" alt="Pile of habit books" loading="lazy" class="feature-image" width="800"
+      height="450">
 
-    <h1>F.A.Q</h1>
-    <details>
-      <summary>What is a habit?</summary>
-      <div class="response">
-        A habit is a routine or behavior that is performed regularly and, in many cases, automatically. Habits can be either helpful or harmful, and they can have a significant impact on your life.
-      </div>
-    </details>
+    <div id="faq-section">
+      <h1>F.A.Q</h1>
+      <details>
+        <summary>What is a habit?</summary>
+        <div class="response">
+          A habit is a routine or behavior that is performed regularly and, in many cases, automatically. Habits can be
+          either helpful or harmful, and they can have a significant impact on your life.
+        </div>
+      </details>
 
-    <details>
-      <summary>How long does it take to form a habit?</summary>
-      <div class="response">
-        The time it takes to form a habit varies depending on the individual and the complexity of the habit. On average, it takes about 66 days for a new behavior to become automatic.
-      </div>
-    </details>
+      <details>
+        <summary>How long does it take to form a habit?</summary>
+        <div class="response">
+          The time it takes to form a habit varies depending on the individual and the complexity of the habit. On
+          average, it takes about 66 days for a new behavior to become automatic.
+        </div>
+      </details>
 
-    <details>
-      <summary>How can I break a bad habit?</summary>
-      <div class="response">
-        Breaking a bad habit can be challenging, but it is possible with the right strategies. Some effective approaches include identifying triggers, replacing the habit with a healthier alternative, and seeking support from friends or professionals.
-      </div>
-    </details>
+      <details>
+        <summary>How can I break a bad habit?</summary>
+        <div class="response">
+          Breaking a bad habit can be challenging, but it is possible with the right strategies. Some effective
+          approaches
+          include identifying triggers, replacing the habit with a healthier alternative, and seeking support from
+          friends
+          or professionals.
+        </div>
+      </details>
 
-    <details>
-      <summary>How can I build a new habit?</summary>
-      <div class="response">
-        Building a new habit requires consistency, motivation, and a clear plan. Start by setting a specific goal, breaking it down into smaller steps, and tracking your progress. Celebrate your successes along the way to stay motivated.
-      </div>
-    </details>
+      <details>
+        <summary>How can I build a new habit?</summary>
+        <div class="response">
+          Building a new habit requires consistency, motivation, and a clear plan. Start by setting a specific goal,
+          breaking it down into smaller steps, and tracking your progress. Celebrate your successes along the way to
+          stay
+          motivated.
+        </div>
+      </details>
 
-    <details>
-      <summary>What are some common habits that can improve my life?</summary>
-      <div class="response">
-        There are many habits that can have a positive impact on your health, productivity, and happiness. Some examples include exercising regularly, eating a balanced diet, getting enough sleep, practicing mindfulness, and setting goals.
-      </div>
-    </details>
-
-
+      <details>
+        <summary>What are some common habits that can improve my life?</summary>
+        <div class="response">
+          There are many habits that can have a positive impact on your health, productivity, and happiness. Some
+          examples
+          include exercising regularly, eating a balanced diet, getting enough sleep, practicing mindfulness, and
+          setting
+          goals.
+        </div>
+      </details>
+    </div>
   </main>
 
 
@@ -88,13 +108,18 @@
     <hr>
     <nav>
       <ul class="navigation" id="footer">
-        <li><a href="https://instagram.com"><img src="images/icons/instagram-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
-        <li><a href="https://x.com"><img src="images/icons/x-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
-        <li><a href="https://facebook.com"><img src="images/icons/facebook-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
-        <li><a href="https://whatsapp.com"><img src="images/icons/whatsapp-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+        <li><a href="https://instagram.com"><img src="images/icons/instagram-white-icon.svg" class="icon" loading="lazy"
+              width="20px"></a></li>
+        <li><a href="https://x.com"><img src="images/icons/x-white-icon.svg" class="icon" loading="lazy"
+              width="20px"></a></li>
+        <li><a href="https://facebook.com"><img src="images/icons/facebook-white-icon.svg" class="icon" loading="lazy"
+              width="20px"></a></li>
+        <li><a href="https://whatsapp.com"><img src="images/icons/whatsapp-white-icon.svg" class="icon" loading="lazy"
+              width="20px"></a></li>
       </ul>
     </nav>
     <p>&#169; <span id="currentYear"></span> 🔥Lucas Neves Rocha🔥 Brazil</p>
     <p id="lastModified"></p>
 </body>
+
 </html>
