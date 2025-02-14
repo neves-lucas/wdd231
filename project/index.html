@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 231 - Web Frontend Development - Lucas Neves Rocha - Habit Tracker</title>
+  <meta name="description" content="WDD 231 - Web Frontend Development - Lucas Neves Rocha - Habit Tracker">
+  <meta name="author" content="Lucas Neves Rocha">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="../scripts/getdates.js" defer></script>
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>HabitOk</h1>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html" id="articlesButton">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main id="main">
+    <button id="theme-toggle">&#9680;</button>
+
+    <div id="summary">
+    <h1>Welcome to HabitOk</h1>
+    <h2><em>Transform your life, one habit at a time.</em></h2>
+    <p>Unlock the power of consistent habits to achieve your goals, break free from bad patterns, and create lasting positive change. Start your journey toward a better you today!</p>
+    </div>
+
+    <div id=homeButtons>
+      <a href="articles.html"><button>Articles</button></a>
+      <a href="about.html"><button>About Us</button></a>
+    </div>
+
+    <img src="images/horizontal_runner.webp" alt="Runner tying his shoes" loading="lazy" width="80%">
+  </main>
+
+
+  <footer>
+    <hr>
+    <nav>
+      <ul class="navigation" id="footer">
+        <li><a href="https://instagram.com"><img src="images/icons/instagram-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+        <li><a href="https://x.com"><img src="images/icons/x-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+        <li><a href="https://facebook.com"><img src="images/icons/facebook-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+        <li><a href="https://whatsapp.com"><img src="images/icons/whatsapp-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+      </ul>
+    </nav>
+    <p>&#169; <span id="currentYear"></span> 🔥Lucas Neves Rocha🔥 Brazil</p>
+    <p id="lastModified"></p>
+</body>
+</html>

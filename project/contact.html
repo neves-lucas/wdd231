@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 231 - Web Frontend Development - Lucas Neves Rocha - Habit Tracker</title>
+  <meta name="description" content="WDD 231 - Web Frontend Development - Lucas Neves Rocha - Habit Tracker">
+  <meta name="author" content="Lucas Neves Rocha">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="../scripts/getdates.js" defer></script>
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>HabitOk</h1>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main id="main">
+    <button id="theme-toggle">&#9680;</button>
+
+    <div id="summary">
+    <h1>Contact Us</h1>
+    <p>Have a question or feedback? We'd love to hear from you! Please fill out the form below, and we'll get back to you as soon as possible.</p>
+    </div>
+
+    <div id=homeButtons>
+      <a href="index.html"><button>Home</button></a>
+      <a href="about.html"><button>About Us</button></a>
+    </div>
+
+    <img src="images/contactus.webp" alt="Computer screen on Gmail" loading="lazy" width="80%">
+    
+    <form id="contactForm" action="https://formspree.io/f/movjngre" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+  </main>
+
+
+  <footer>
+    <hr>
+    <nav>
+      <ul class="navigation" id="footer">
+        <li><a href="https://instagram.com"><img src="images/icons/instagram-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+        <li><a href="https://x.com"><img src="images/icons/x-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+        <li><a href="https://facebook.com"><img src="images/icons/facebook-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+        <li><a href="https://whatsapp.com"><img src="images/icons/whatsapp-white-icon.svg" class="icon" loading="lazy" width="20px"></a></li>
+      </ul>
+    </nav>
+    <p>&#169; <span id="currentYear"></span> 🔥Lucas Neves Rocha🔥 Brazil</p>
+    <p id="lastModified"></p>
+</body>
+</html>
