@@ -5,7 +5,6 @@ async function initArticles() {
     const articles = await fetchArticlesData();
     renderArticles(articles);
     setUpModal();
-    setUpArticlesButton(articles);
   } catch (error) {
     console.error("Error fetching articles:", error);
   }
@@ -37,15 +36,6 @@ function renderArticles(articles) {
   });
   // Attach modal event only once to the container.
   articlesContainer.addEventListener('click', handleModalOpen);
-}
-
-function setUpArticlesButton(articles) {
-  const articlesButton = document.querySelector("#articlesButton");
-  if (articlesButton) {
-    articlesButton.addEventListener('click', () => {
-      renderArticles(articles);
-    });
-  }
 }
 
 function setUpModal() {

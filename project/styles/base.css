@@ -77,6 +77,11 @@ navigation a:active {
 	border-radius: var(--button-radius);
 }
 
+#active {
+	background-color: var(--accent1-color);
+	border-radius: var(--button-radius);
+}
+
 .show li {
 	display: block;
 }
